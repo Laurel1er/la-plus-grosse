@@ -1,7 +1,9 @@
 # 🚀 Challenge du 17/11/24 : Qui a la plus grosse ... machine ? - Le "Stream Performance Challenge"
 
 **Dates** : du 17/11/24 au 01/12/24
+
 **Difficulté** : Moyen
+
 **Technologies** : Java 17+ 
 
 ![dataset](./_images/largedataset.png "Dataset")
