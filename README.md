@@ -48,10 +48,12 @@ Temps de traitement : 987 ms
 ```
 
 ## Détails supplémentaires
-### **Structure des données** : Le fichier CSV contient plusieurs millions de lignes, ce qui nécessite une approche optimisée pour obtenir les résultats. L'utilisation judicieuse des **streams Java** est cruciale pour traiter un grand volume de données de manière efficace.
-### **Classement par proportion** : Le classement doit se faire en fonction de la **proportion** de personnes appartenant au code postal le plus fréquent d'un pays, par rapport au nombre total de personnes dans ce pays. Par exemple, si un code postal couvre 45% des personnes d'un pays, il sera classé plus haut qu'un autre code postal qui ne couvre que 26% des personnes dans son pays.
-### **Temps de traitement** : Bien que le classement principal soit basé sur la qualité du code, nous allons également suivre les temps d'exécution pour établir un classement secondaire et déterminer **qui a la machine la plus rapide** pour ce traitement. À vous de jouer pour optimiser votre solution et voir si vous pouvez dominer ce classement annexe !
-### Fichier CSV
+
+- **Structure des données** : Le fichier CSV contient plusieurs millions de lignes, ce qui nécessite une approche optimisée pour obtenir les résultats. L'utilisation judicieuse des **streams Java** est cruciale pour traiter un grand volume de données de manière efficace.
+
+- **Classement par proportion** : Le classement doit se faire en fonction de la **proportion** de personnes appartenant au code postal le plus fréquent d'un pays, par rapport au nombre total de personnes dans ce pays. Par exemple, si un code postal couvre 45% des personnes d'un pays, il sera classé plus haut qu'un autre code postal qui ne couvre que 26% des personnes dans son pays.
+- **Temps de traitement** : Bien que le classement principal soit basé sur la qualité du code, nous allons également suivre les temps d'exécution pour établir un classement secondaire et déterminer **qui a la machine la plus rapide** pour ce traitement. À vous de jouer pour optimiser votre solution et voir si vous pouvez dominer ce classement annexe !
+- Fichier CSV
 Le fichier CSV à utiliser sera fourni dans le **repository GitHub** associé à ce challenge. Assurez-vous de le télécharger et de l'utiliser pour vos tests.
 
 
