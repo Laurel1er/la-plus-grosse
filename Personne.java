@@ -1,11 +1,11 @@
 public class Personne {
-    int id;
+    String id;
     String firstname;
     String lastname;
     String email;
     String country;
     String postalCode;
-    public Personne(int id, String firstname, String lastname, String email, String country, String postalCode) {
+    public Personne(String id, String firstname, String lastname, String email, String country, String postalCode) {
         this.id = id;
         this.firstname = firstname;
         this.lastname = lastname;
@@ -13,10 +13,10 @@ public class Personne {
         this.country = country;
         this.postalCode = postalCode;
     }
-    public int getId() {
+    public String getId() {
         return id;
     }
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
     public String getFirstname() {
@@ -48,5 +48,8 @@ public class Personne {
     }
     public void setPostalCode(String postalCode) {
         this.postalCode = postalCode;
+    }
+    public String getCountryAndPostalCode(){
+        return country + " - " + postalCode;
     }
 }
